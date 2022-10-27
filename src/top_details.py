@@ -19,8 +19,3 @@ def top_losers() -> list:
     """
     nse = general.get_nse_object()
     return nse.get_top_losers()
-
-
-# if __name__ == '__main__':
-#     nse = Nse()
-#     print(nse.get_top_gainers())
