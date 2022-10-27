@@ -52,6 +52,18 @@ optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
 
 [[package]]
+name = "dateutils"
+version = "0.6.12"
+description = "Various utilities for working with date and datetime objects"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+python-dateutil = "*"
+pytz = "*"
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -88,6 +100,18 @@ lxml = "*"
 numpy = "*"
 pandas = "*"
 requests = "*"
+six = "*"
+
+[[package]]
+name = "nsetools"
+version = "1.0.11"
+description = "Python library for extracting realtime data from National Stock Exchange"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+dateutils = "*"
 six = "*"
 
 [[package]]
@@ -183,7 +207,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "5ddd1a2b11f9078291757425d7834887978d2657713ff1194bcd40c4b75b1ed4"
+content-hash = "524f81a3d33dab816fc61da0a0de14bb103d5165c994494afa68853b603109d4"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -205,6 +229,10 @@ click = [
 colorama = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
+]
+dateutils = [
+    {file = "dateutils-0.6.12-py2.py3-none-any.whl", hash = "sha256:f33b6ab430fa4166e7e9cb8b21ee9f6c9843c48df1a964466f52c79b2a8d53b3"},
+    {file = "dateutils-0.6.12.tar.gz", hash = "sha256:03dd90bcb21541bd4eb4b013637e4f1b5f944881c46cc6e4b67a6059e370e3f1"},
 ]
 idna = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
@@ -284,6 +312,9 @@ lxml = [
 ]
 nsepy = [
     {file = "nsepy-0.8.tar.gz", hash = "sha256:200e497cee67d405fa57448e616f467f9d6a62f126e3a1a89e9a5a2e81345689"},
+]
+nsetools = [
+    {file = "nsetools-1.0.11-py3-none-any.whl", hash = "sha256:45499a8bb0237b97fa942d16c9fa1b53825f0c606ce3fb04b74d77f7f42623fb"},
 ]
 numpy = [
     {file = "numpy-1.23.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:95d79ada05005f6f4f337d3bb9de8a7774f259341c70bc88047a1f7b96a4bcb2"},
