@@ -2,9 +2,29 @@
 
 changelog:
   categories:
-    - title: add poetry
+    - title: Breaking Changes 🛠
       labels:
-        - add dependency
-    - title: update readme
+        - bug
+        - fix
+    - title: Exciting New Features 🎉
+      labels:
+        - feat
+        - enhancement
+    - title: Document Update 📚
       label:
-        - readme
+        - read me update
+        - doc
+        - documents
+    - title: Newbie start 👶
+      label:
+        - good first issue
+    - title: Duplicate Code 👷
+      label:
+        - duplicate
+        - optimization
+        - fix
+    - title: Need Help 🆘
+      label:
+        - help wanted
+        - question
+
