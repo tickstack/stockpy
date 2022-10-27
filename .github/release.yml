@@ -5,3 +5,6 @@ changelog:
     - title: add poetry
       labels:
         - add dependency
+    - title: update readme
+      label:
+        - readme
