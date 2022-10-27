@@ -5,26 +5,26 @@ changelog:
     - title: Breaking Changes 🛠
       labels:
         - bug
-        - fix
     - title: Exciting New Features 🎉
       labels:
-        - feat
         - enhancement
+    - title: Improvement 💪🥇
+      labels:
+        - improvement
+        - refactoring
     - title: Document Update 📚
-      label:
-        - read me update
-        - doc
-        - documents
+      labels:
+        - documentation
     - title: Newbie start 👶
-      label:
+      labels:
         - good first issue
     - title: Duplicate Code 👷
-      label:
+      labels:
         - duplicate
-        - optimization
-        - fix
     - title: Need Help 🆘
-      label:
+      labels:
         - help wanted
         - question
-
+    - title: Invalid
+      labels:
+        - invalid
