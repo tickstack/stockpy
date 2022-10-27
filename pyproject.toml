@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stockpy"
+version = "0.1.0"
+description = "Stock library based on python"
+authors = ["shubhammandowara <shubham77mandowara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.1"
+nsepy = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
